@@ -1,0 +1,46 @@
+body{
+  background-color:salmon;
+}
+nav{
+  width: 100%;
+  display: table;
+  table-layout: fixed;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+}
+ul{
+  list-style: none;
+  display: table-row;
+  margin: 0;
+  padding: 0;
+  background: #282828;
+  color: #fff;
+}
+
+li{
+  position: relative;
+  height: 55px;
+  display: table-cell;
+  vertical-align: middle;
+  font-family: arial;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+  text-align: center;
+  cursor: pointer;
+  transition: background .4s ease;
+}
+
+li:hover{
+  background: salmon;
+  transition: background .4s ease;
+}
+a {
+	color:#fff;
+	text-decoration: none;
+}
+form{
+	margin-top: 100px;
+
+}
